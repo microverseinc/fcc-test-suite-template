@@ -1,0 +1,26 @@
+body {
+    background-color: lightgrey;
+}
+
+img {
+    display: block;
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+}
