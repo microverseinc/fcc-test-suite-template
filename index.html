@@ -10,16 +10,43 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <h1 id="title">Survey about bulbs</h1>
     <p id="description">This survey pretends to know advanced knowledge in simple users about bulbs.</p>
+
+    <div>
     <form id="survey-form">
-      <label id=name-label>Name* :</label>
-      <input type="text" id="name" placeholder="Type your name" required/>
+      <div class="row">
+        <div id="label"></div>
+        <div id="input"></div>
+      </div>
+      <div class="row">
+        <div id="label">
+          <label id=name-label>Name* :</label>
+        </div>
+        <div id="input">
+          <input type="text" id="name" placeholder="Type your name" required/>
+        </div>
+      </div>
       <br>
-      <label id=email-label>Email* :</label>
-      <input type="email" id="email" placeholder="Type your e-mail" required/>
+      <div class="row">
+          <div id="label">
+            <label id=email-label>Email* :</label>
+          </div>
+          <div id="input">
+            <input type="email" id="email" placeholder="Type your e-mail" required/>
+          </div>
+        </div>
       <br>
+      <div class="row">
+          <div id="label"></div>
+          <div id="input"></div>
+        </div>
       <label id=number-label>Number* :</label>
       <input type="number" id="number" placeholder="Type your cellphone" min="0" max="12000000" required/>
       <br>
+      <div class="row">
+          <div id="label"></div>
+          <div id="input"></div>
+        </div>
+  
       <label id=name-label>Choose your age range* :</label>
       <select id="dropdown">
         <option value="0">12- 18 years old</option>
@@ -28,6 +55,11 @@
       </select>
       <br>
       <br>
+      <div class="row">
+          <div id="label"></div>
+          <div id="input"></div>
+        </div>
+  
       <label id=name-label>Choose your favorite bulb technology :</label>
       <div>
         <br>
@@ -40,6 +72,11 @@
 
       <br>
       <br>
+      <div class="row">
+          <div id="label"></div>
+          <div id="input"></div>
+        </div>
+  
       <label id=name-label>Choose your favorite bulb technology :</label>
       <div>
         <br>
@@ -55,11 +92,16 @@
         <br>
         Gold<input type="checkbox" name="chk-group" value="2">
       </div>
+      <div class="row">
+          <div id="label"></div>
+          <div id="input"></div>
+        </div>  
       <label id=name-label>Aditional Comments:</label>
       <textarea name="name" rows="4" cols="10"></textarea>
       <br>
       <input type="submit" id="submit" text="submit">
     </form>
+  </div>
 
     <script  src="js/index.js"></script>
   </body>
