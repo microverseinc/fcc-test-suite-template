@@ -11,12 +11,15 @@
     <h1 id="title">Survey about bulbs</h1>
     <p id="description">This survey pretends to know advanced knowledge in simple users about bulbs.</p>
     <form id="survey-form">
-      Name* :<input type="text" id="name" placeholder="Type your name" required/>
+      <label id=name-label>Name* :</label>
+      <input type="text" id="name" placeholder="Type your name" required/>
       <br>
-      Email* :<input type="email" id="email" placeholder="Type your e-mail" required/>
+      <label id=email-label>Email* :</label>
+      <input type="email" id="email" placeholder="Type your e-mail" required/>
       <br>
-      Number* :<input type="number" id="number" placeholder="Type your cellphone" required/>
-
+      <label id=number-label>Number* :</label>
+      <input type="number" id="number" placeholder="Type your cellphone" min="0" max="12000000" required/>
+      <br>
     </form>
 
     <script  src="js/index.js"></script>
