@@ -1,0 +1,9 @@
+#main {
+    padding: 50px 20px 20px 30px;
+}
+
+#main #title {
+    text-align: center;
+    background-color: aqua;
+    color: white;
+}
