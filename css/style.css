@@ -7,3 +7,13 @@
     background-color: aqua;
     color: white;
 }
+
+#tribute-info {
+    text-align: left;
+    background-color: aqua;
+    color: white;
+}
+
+#tribute-info>ul {
+    list-style: none;
+}
