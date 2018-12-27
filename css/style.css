@@ -47,12 +47,7 @@ html, body {
     background: white;
 }
 
-<<<<<<< HEAD
-#tribute-info.h3 {
-    text-align: center;
-=======
 #tribute-info>h3 {
->>>>>>> 6a92af674496452a1e9951810fb573c8f346f45f
     display: block;
     text-align: left;
     padding: 20px;
