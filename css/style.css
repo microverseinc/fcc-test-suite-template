@@ -1,22 +1,32 @@
 #main {
     padding: 50px 20px 20px 30px;
+    font-size: 1.2em;
 }
 
 #main #title {
     text-align: center;
     background-color: aqua;
     color: white;
+    padding: 20px;
 }
 
 #tribute-info {
     text-align: left;
     background-color: aqua;
     color: white;
+    padding: 20px;
 }
 
 #tribute-info>ul {
     list-style: none;
 }
+
+#tribute-info>ul>li {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
 #img-div {
     margin: -5px;
     margin-top: 20px;
@@ -25,12 +35,18 @@
     background: white;
 }
 
-#tribute-info.h3 {
+#tribute-info>h3 {
     display: block;
-    font-size: 2em;
+    text-align: left;
+    padding: 20px;
+    font-size: 1em;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 5px;
     -webkit-margin-end: 5px;
     font-weight: bold;
+}
+
+#img-div {
+    margin: 0 auto;
 }
