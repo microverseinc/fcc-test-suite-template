@@ -1,3 +1,15 @@
+html {
+    display: block;
+}
+
+html, body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    min-width: 260px;
+    color: #333;
+}
+
+
 #main {
     padding: 50px 20px 20px 30px;
 }
@@ -26,6 +38,7 @@
 }
 
 #tribute-info.h3 {
+    text-align: center;
     display: block;
     font-size: 2em;
     -webkit-margin-before: 1em;
