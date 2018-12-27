@@ -7,6 +7,7 @@
     background-color: aqua;
     color: white;
 }
+<<<<<<< HEAD
 
 #tribute-info {
     text-align: left;
@@ -17,3 +18,12 @@
 #tribute-info>ul {
     list-style: none;
 }
+=======
+#img-div {
+    margin: -5px;
+    margin-top: 20px;
+    width: 100%;
+    border: 5px solid white;
+    background: white;
+}
+>>>>>>> d910f9e7711a0fe46d26bd71fdd25005bec4e7a0
