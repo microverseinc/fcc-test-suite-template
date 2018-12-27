@@ -24,3 +24,13 @@
     border: 5px solid white;
     background: white;
 }
+
+#tribute-info.h3 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 5px;
+    -webkit-margin-end: 5px;
+    font-weight: bold;
+}
