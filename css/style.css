@@ -7,3 +7,10 @@
     background-color: aqua;
     color: white;
 }
+#img-div {
+    margin: -5px;
+    margin-top: 20px;
+    width: 100%;
+    border: 5px solid white;
+    background: white;
+}
