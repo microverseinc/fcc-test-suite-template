@@ -12,23 +12,33 @@ html, body {
 
 #main {
     padding: 50px 20px 20px 30px;
+    font-size: 1.2em;
 }
 
 #main #title {
     text-align: center;
     background-color: aqua;
     color: white;
+    padding: 20px;
 }
 
 #tribute-info {
     text-align: left;
     background-color: aqua;
     color: white;
+    padding: 20px;
 }
 
 #tribute-info>ul {
     list-style: none;
 }
+
+#tribute-info>ul>li {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
 #img-div {
     margin: -5px;
     margin-top: 20px;
@@ -37,13 +47,23 @@ html, body {
     background: white;
 }
 
+<<<<<<< HEAD
 #tribute-info.h3 {
     text-align: center;
+=======
+#tribute-info>h3 {
+>>>>>>> 6a92af674496452a1e9951810fb573c8f346f45f
     display: block;
-    font-size: 2em;
+    text-align: left;
+    padding: 20px;
+    font-size: 1em;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 5px;
     -webkit-margin-end: 5px;
     font-weight: bold;
+}
+
+#img-div {
+    margin: 0 auto;
 }
