@@ -20,7 +20,7 @@ header{
    
 }
 
-#Title{
+#title{
 
     height:inherit;
     display:flex;
@@ -46,7 +46,8 @@ header{
     border:1px solid rgb(133, 48, 48);
     border-radius:50%;
     margin:auto;
-    display:block
+    display:block;
+    max-width: 100%;
 }
 
 #img-caption{
@@ -70,6 +71,7 @@ font-size:50px;
     padding-top:12px;
     height:inherit;
     text-align:center;
+
    
     
 }
