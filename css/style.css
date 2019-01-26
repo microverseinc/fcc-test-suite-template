@@ -1,30 +1,111 @@
-h1 {
-    font-family: sans-serif;
-    font-size: 20px;
-    color: red;
+@import url("https://use.typekit.net/bbc1fvt.css");
+*{
+    margin:0;
+    padding:0;
+    font-family:  sanvito-pro-display, sans-serif;
+    color: #E96521;
 }
-h2 {
-    font-family: sans-serif;
-    color: blue;  
+#main{
+    min-height: 670px;
+}
 
+header{
+    width:100vw;
+   height:12vh;
+   border: 1px solid #707070;
+   box-shadow: 0 3px 60px rgba(72,63,63,60);
+  position:relative;
+   font-family: sanvito-pro-display, sans-serif;
+   
+   
+}
+
+#Title{
+
+    height:inherit;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    font-size:50px;
     
 }
-body{
-    text-align: center;
+
+#imsec{
+    margin:3vh;
+    
+}
+#img-div{
+    width:30%;
+   float:left;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1),rgba(255,0,0,0));
+    margin-right:42px;
+
 }
 #image{
-    max-width: 100%;
-    display: block;
-    height: auto;
-
+    border:1px solid rgb(133, 48, 48);
+    border-radius:50%;
+    margin:auto;
+    display:block
 }
+
 #img-caption{
-    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color:#fff
 }
 
-p{
-    font-family: Helvetica, sans-serif;
+#info{
+font-size:22px;
+
 }
-.tribute-link{
-    font-size: 20px;
+
+#Timeline-section{
+height:35vh;
+background-color:#3B3735;
+font-size:50px;
+}
+
+#timeline-title{
+    padding-top:12px;
+    height:inherit;
+    text-align:center;
+   
+    
+}
+article{
+    height:17vh;
+    border: 2px solid #3B3735;
+}
+article:first-child{
+    margin-top: 12px;
+}
+.dates{
+    float:left;
+    width:30%;
+    height: 100%;
+    font-size:50px;
+    text-align:center;
+    border-right: 3px solid #3B3735;
+    
+}
+.details{
+     
+    font-size:50px;
+    
+}
+
+
+footer{
+    height:12vh;
+    text-align:center;
+    background-color:#3B3735;
+    margin-top:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+h3 a:hover{
+    color:white;
 }
