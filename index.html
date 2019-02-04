@@ -5,10 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <title>Survery Form</title>
+  <style>
+    input{
+      max-width: 480px;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div class="container" style="text-align:center;">
   <h1 id="title">
     Survey Form
   </h1>
@@ -17,32 +24,49 @@
   </p>
 
   <form id="survey-form">
-    <label for="name" id="name-label">Name: </label>
-    <input type="text" id="name" placeholder="Enter fullname" required>
-    <label for="email" id="email-label">Email: </label>
-    <input type="email" name="email" id="email" placeholder="Enter email" required>
-    <label for="number" id="number-label">Number: </label>
-    <input type="number" min="2" max="20" id="number" placeholder="Enter number between 2 and 20" required>
+      <div class="form-group">
+          <label for="exampleInputEmail1">Name</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Number</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter number">
+          </div>
+          <select class="form-control" style="max-width: 400px; margin: 0 auto;">
+              <option disabled selected value>Select an option</option>
+              <option >challenges</option>
+              <option >community</option>
+              <option >open source</option>
+            </select>
 
-    <select name="" id="dropdown">
-      <option value="Orange">Orange</option>
-      <option value="Apple">Apple</option>
-      <option value="Banana">Banana</option>
-    </select>
+            <div class="form-group form-check">
+                <input type="radio" class="form-check-input" name="likes" value="orange">
+                <label class="form-check-label" for="exampleCheck1">orange</label>
+            </div>
+            <div class="form-group form-check">
+                <input type="radio" class="form-check-input" name="likes" value="apple">
+                <label class="form-check-label" for="exampleCheck1">apple</label>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" name="likes" value="Stackoverflow">
+                <label class="form-check-label" for="exampleCheck1">Stackoverflow</label>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" name="likes" value="Youtube">
+                <label class="form-check-label" for="exampleCheck1">Youtube</label>
+            </div>
 
-    <input type="radio" name="likes" value="orange"> 
-    <input type="radio" name="likes" value="apple">  
-    <input type="radio" name="likes" value="banana">  
-    
-    <input type="checkbox" name="" id="" value="Google">
-    <input type="checkbox" name="" id="" value="Stackoverflow">
-    <input type="checkbox" name="" id="" value="Youtube">
-
-    <textarea name="" id="" cols="30" rows="10"> 
-      
-      </textarea>
-      <button id="submit">Submit</button>
+            <div class="form-group" style="max-width: 400px; margin: 0 auto;">
+                <label for="exampleFormControlTextarea1">Send us any comments</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div><br>
+            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
   </form>
+  </div>
 
    <!--
     Hello Camper!
@@ -52,6 +76,12 @@
     Good luck and Happy Coding!
     - The freeCodeCamp Team
     -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
     <script  src="js/index.js"></script>
 
 </body>
