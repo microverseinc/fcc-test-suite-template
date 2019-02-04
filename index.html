@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
   <title>Survery Form</title>
 </head>
 <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <h1 id="title">
     Survey Form
   </h1>
@@ -15,20 +17,22 @@
   </p>
 
   <form id="survey-form">
-    <label for="name" id="name-label"></label>
-    <input type="text" id="name" placeholder="Enter fullname">
-    <label for="email" id="email-label"></label>
-    <input type="email" name="email" id="email" placeholder="Enter email">
-    <label for="number" id="number-label"></label>
-    <input type="number" min="2" max="20" id="number" placeholder="Enter number between 2 and 20">
+    <label for="name" id="name-label">Name: </label>
+    <input type="text" id="name" placeholder="Enter fullname" required>
+    <label for="email" id="email-label">Email: </label>
+    <input type="email" name="email" id="email" placeholder="Enter email" required>
+    <label for="number" id="number-label">Number: </label>
+    <input type="number" min="2" max="20" id="number" placeholder="Enter number between 2 and 20" required>
 
     <select name="" id="dropdown">
-      
+      <option value="Orange">Orange</option>
+      <option value="Apple">Apple</option>
+      <option value="Banana">Banana</option>
     </select>
 
-    <input type="radio" name="likes"> 
-    <input type="radio" name="likes">  
-    <input type="radio" name="likes">  
+    <input type="radio" name="likes" value="orange"> 
+    <input type="radio" name="likes" value="apple">  
+    <input type="radio" name="likes" value="banana">  
     
     <input type="checkbox" name="" id="" value="Google">
     <input type="checkbox" name="" id="" value="Stackoverflow">
@@ -36,9 +40,19 @@
 
     <textarea name="" id="" cols="30" rows="10"> 
       
-    </textarea>
-    <button id="submit">Submit</button>
+      </textarea>
+      <button id="submit">Submit</button>
   </form>
+
+   <!--
+    Hello Camper!
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+    - The freeCodeCamp Team
+    -->
+    <script  src="js/index.js"></script>
 
 </body>
 </html>
