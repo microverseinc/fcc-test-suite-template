@@ -1,0 +1,35 @@
+body {
+  background-color: #000;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  min-width: 320px;
+}
+#title{
+    color: #000;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+#hero {
+  text-align: center;
+  font-weight: bold;
+
+}
+#form{
+    color: #000;
+    text-align: center;
+
+
+}
+.btn{
+  background-color: #4CAF50;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
