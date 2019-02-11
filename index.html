@@ -13,9 +13,30 @@
     <p id="description">This is a survey form</p>
 
     <form action="" id="survey-form">
-        <input type="text" name="name" id="name" required>
-        <input type="email" id="email" required>
-        <input type="number" id="number">
+        <label id="name-label">name</label>
+        <input type="text" name="name" id="name" placeholder = "name" required><br>
+        <label id="email-label">email</label>
+        <input type="email" id="email" placeholder = "email" required><br>
+        <label id="number-label"> number</label>
+        <input type="number" id="number"  placeholder = "number"min = 3 max = 10><br>
+        <select id = "dropdown">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select><br>
+          <input type="radio" value = "Definitely" name="check" checked> Definitely<br>
+          <input type="radio" value = "Maybe" name="check"  checked> Maybe<br>
+          <input type="radio" value = "Not Sure" name="check"  checked> Not Sure<br>
+
+       <input type="checkbox"  value="Front-end"> Front-end<br>
+       <input type="checkbox"  value="Back-end"> Back-end<br>
+
+       <textarea rows="4" cols="50">
+          
+      </textarea><br>
+
+      <button id="submit" value="submit" type="submit">Submit</button>
     </form>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
