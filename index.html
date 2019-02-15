@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
 
-  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form</p>
+
+    <form action="" id="survey-form">
+        <label id="name-label">name</label>
+        <input type="text" name="name" id="name" placeholder = "name" required><br>
+        <label id="email-label">email</label>
+        <input type="email" id="email" placeholder = "email" required><br>
+        <label id="number-label"> number</label>
+        <input type="number" id="number"  placeholder = "number"min = 3 max = 10><br>
+        <select id = "dropdown">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select><br>
+          <input type="radio" value = "Definitely" name="check" checked> Definitely<br>
+          <input type="radio" value = "Maybe" name="check"  checked> Maybe<br>
+          <input type="radio" value = "Not Sure" name="check"  checked> Not Sure<br>
+
+       <input type="checkbox"  value="Front-end"> Front-end<br>
+       <input type="checkbox"  value="Back-end"> Back-end<br>
+
+       <textarea rows="4" cols="50">
+          
+      </textarea><br>
+
+      <button id="submit" value="submit" type="submit">Submit</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
+    
     <script  src="js/index.js"></script>
-  </body>
+</body>
 </html>
