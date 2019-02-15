@@ -1,0 +1,11 @@
+#main {
+	width:50%;
+	margin:60px auto 60px auto;
+
+}
+#image{
+	  display:block;
+	  margin:50px auto;
+	  max-width: 500px;
+  	  height: auto;
+}
