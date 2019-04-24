@@ -1,0 +1,24 @@
+/* .project-tile {
+  margin: 2000px;
+} */
+
+@media only screen and (min-width: 768px) {
+    /* desktop */
+  body {
+      background: #b3b3e7 !important;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* mobiles */
+  body {
+      background: rgb(0, 238, 159) !important;
+  }
+}
+
+
+/* body{
+    background: red;
+} */
+

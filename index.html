@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
 
+  <style>
+    @media only screen and (max-width:500px){
+      h1{
+        color: green;
+      }
+
+    }
+
+    #navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%; /* Full width */
+    }
+
+    .heightEqual{
+
+      height : 760px;
+    }
+
+
+  </style>
+
+
+<!-- Navbar should be at the top of the viewport even after scrolling : expected -48 to be close to 0 +/- 15 -->
+
   <body>
+    <nav id="navbar">
+      <a href="#projects">Projects</a>      
+    </nav>
+
+     
+
+    <div id="welcome-section" class="heightEqual">
+
+
+      <h1>Personal Portfolio</h1>
+
+      <div id="projects">
+
+        <!-- 1st project-tile -->
+        <div class="project-tile">
+          <a href="www.google.com">Project 1</a>
+        </div>
+
+      </div>
+
+      <div> <h3>Media Links </h3>  
+          <a id="profile-link" target="_blank" href="www.github.com">Github</a>
+      </div>
+      <!-- end of projects -->
+
+
+
+    </div>
+    <!-- end of welcome section -->
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
@@ -22,5 +81,7 @@
 
     -->
     <script  src="js/index.js"></script>
+
+
   </body>
 </html>
