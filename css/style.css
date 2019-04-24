@@ -1,0 +1,100 @@
+/* .project-tile {
+  margin: 2000px;
+} */
+
+@media only screen and (min-width: 768px) {
+    /* desktop */
+  body {
+      background: #b3b3e7 !important;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* mobiles */
+  body {
+      background: rgb(0, 238, 159) !important;
+  }
+}
+
+
+/* body{
+    background: red;
+} */
+
+
+
+body{
+     
+  background-color: rgb(236, 240, 255);
+
+}
+@media only screen and (max-width:500px){
+  h1{
+    color: rgb(24, 29, 24);
+  }
+
+  body{
+    background: rgb(207, 240, 157);
+  }
+
+  
+}
+
+
+#navbar {
+  background-color: rgb(0, 238, 159) ;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  /* Full width */
+  width: 100%; 
+}
+
+.heightEqual{
+  height : 760px ;
+  width: 100%;
+}
+
+.projectColor{
+  color: white !important;
+  font-weight: 600;
+
+}
+
+.projectsElements{
+  text-align: center;
+  margin-top: 2%;
+}
+.headerDiv{
+  background: rgb(140, 173, 245);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+ 
+  
+
+}
+
+.lastDiv{
+  background-color: rgb(135, 240, 135);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imagesSize{
+  width: 40%;
+  
+}
+a{
+  font-size: 30px;
+}
+
+.portafolioColor{
+  background: rgb(198, 200, 209);
+  
+} 
+
