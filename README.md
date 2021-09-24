@@ -1,1 +1,1 @@
-[Click hear for completed project](https://help.github.com/articles/fork-a-repo/) 
+[Click hear for completed project](https://raptogit.github.io/technical-doc/) 
