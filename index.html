@@ -9,8 +9,143 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
 
+    <h1 id = "title">Microverse Survey Form</h1>
+
+    <p id="description"> this Survey form for genral Practices </p>
+    <!-- Create Form -->
+    <form id="survey-form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label id="name-label" for="name" >
+                Name
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text" required
+                   id="name"
+                   placeholder= "Enter your name" />
+        </div><br/>
+  
+        <div class="form-control">
+            <label  id="email-label" for="email" >
+                Email
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email" 
+                    id="email" required
+
+                    placeholder=" enter a valid email" />
+        </div><br/>
+  
+        <div class="form-control">
+            <label id="number-label" for="number" >
+                Number
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="number"
+            id="number" required
+                   min="10" max="99" value="00"
+                   placeholder="Enter your number" />
+        </div><br/>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="dropdown">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div><br/>
+  
+        <div class="form-control">
+            <label>
+                Would you recommed Microverse
+                to a friend?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio" value= "radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" value= "radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" value= "radio"
+                       id="recommed-3"
+                       name="recommed">Maybe</input>
+            </label>
+        </div><br/>
+  
+        <div class="form-control">
+            <label>Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox" value="check"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox" value="check"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox" value="check"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox" value="check"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox" value="check"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox" value="check"
+                       name="inp">JavaScript</input></label>
+            <label for="inp-7">
+                <input type="checkbox" value="check"
+                       name="inp">React</input></label>
+            <label for="inp-7">
+                <input type="checkbox" value="check"
+                       name="inp">Angular</input></label>
+            <label for="inp-7">
+                <input type="checkbox" value="check"
+                       name="inp">Django</input></label>
+            <label for="inp-7">
+                <input type="checkbox" value="check"
+                       name="inp">Spring</input></label>
+        </div><br/>
+  
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div><br/>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit" id ="submit">
+            Submit
+        </button>
+    </form>
+    <!-- 
     Hello Camper!
 
     For now, the test suite only works in Chrome!
