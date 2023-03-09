@@ -1,0 +1,21 @@
+.body {
+    background-image: url("https://www.cumanagement.com/sites/default/files/2019-07/business-leader-talent.jpg");
+    position: sticky;
+    top: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .form {
+    position: relative;
+    background-color: gray;
+    align-self: center;
+    width: 40vw;
+    height: auto;
+    margin-top: 10vh;
+    text-align: center;
+  }
+  
