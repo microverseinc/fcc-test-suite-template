@@ -1,0 +1,18 @@
+
+* {
+    color: blue;
+    text-align: center;
+  }
+  
+  #image{
+    display: block;
+    max-width: 100%;
+    height:auto;
+    margin: auto;
+  }
+  
+  main{
+    width: 600px;
+    margin: auto;
+    background-color: yellow;
+  }
